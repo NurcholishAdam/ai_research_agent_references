@@ -1,0 +1,1195 @@
+{
+  "session_analytics": {
+    "session_id": "session_20250828_113039",
+    "total_queries": 4,
+    "average_quality": 0.6323707339039615,
+    "quality_trend": "stable",
+    "unique_references_used": 6,
+    "total_references_used": 16,
+    "reference_reuse_rate": 0.625,
+    "average_rlhf_rewards": {
+      "reference_quality_reward": 0.5564897767069477,
+      "citation_authority_reward": 0.5517806850920922,
+      "source_diversity_reward": 0.8500000000000001,
+      "temporal_relevance_reward": 0.6515625,
+      "network_connectivity_reward": 0.16666666666666669
+    },
+    "research_history": [
+      {
+        "session_id": "session_20250828_113039",
+        "timestamp": "2025-08-28T11:30:39.737116",
+        "query": "What are recent advances in reinforcement learning?",
+        "query_type": "recent_research",
+        "relevant_references": [
+          "semantic_scholar_dataset",
+          "2308.14025",
+          "1706.03762",
+          "2203.02155",
+          "openpipe/art"
+        ],
+        "research_response": "Research Analysis: What are recent advances in reinforcement learning?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into What are recent advances in reinforcement learning?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+        "quality_metrics": {
+          "overall_quality": 0.6633250607810723,
+          "base_quality": 0.7126072296872461,
+          "reference_diversity": 0.6,
+          "average_reference_quality": 0.6126072296872461,
+          "response_completeness": 0.745,
+          "num_references": 5
+        },
+        "rlhf_rewards": {
+          "reference_quality_reward": 0.5564897767069477,
+          "citation_authority_reward": 0.513284358225202,
+          "source_diversity_reward": 0.8,
+          "temporal_relevance_reward": 0.8687500000000001,
+          "network_connectivity_reward": 0.16666666666666669
+        },
+        "provenance_traces": [
+          {
+            "reference_id": "semantic_scholar_dataset",
+            "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+            "quality_score": 0.64801710610432,
+            "reward_signals": {
+              "citation_reward": 0.5901702917777093,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.5333333333333333,
+              "source_credibility": 0.95,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.215,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+              "Initial confidence score: 0.89",
+              "Citation count: 892",
+              "Publication year: 2018-09-27",
+              "Authors: 3 author(s)",
+              "Reference type: DATASET",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: Association for Computational Linguistics (ACL)",
+              "Composite quality score: 0.648"
+            ]
+          },
+          {
+            "reference_id": "2308.14025",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "1706.03762",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "2203.02155",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "openpipe/art",
+            "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+            "quality_score": 0.49431462260553855,
+            "reward_signals": {
+              "citation_reward": 0.3266936911159173,
+              "completeness_reward": 0.55,
+              "recency_reward": 0.8,
+              "source_credibility": 0.7,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.115,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference openpipe/art ingested from GITHUB source",
+              "Initial confidence score: 0.88",
+              "Citation count: 42",
+              "Publication year: 2024-07-10",
+              "Authors: 3 author(s)",
+              "Reference type: CODE",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Composite quality score: 0.494"
+            ]
+          }
+        ]
+      },
+      {
+        "session_id": "session_20250828_113039",
+        "timestamp": "2025-08-28T11:30:39.785263",
+        "query": "How can I implement a neural network from scratch?",
+        "query_type": "practical_implementation",
+        "relevant_references": [
+          "semantic_scholar_dataset",
+          "2308.14025",
+          "1706.03762",
+          "2203.02155",
+          "openpipe/art"
+        ],
+        "research_response": "Research Analysis: How can I implement a neural network from scratch?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into How can I implement a neural network from scratch?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+        "quality_metrics": {
+          "overall_quality": 0.6653250607810723,
+          "base_quality": 0.7126072296872461,
+          "reference_diversity": 0.6,
+          "average_reference_quality": 0.6126072296872461,
+          "response_completeness": 0.765,
+          "num_references": 5
+        },
+        "rlhf_rewards": {
+          "reference_quality_reward": 0.5564897767069477,
+          "citation_authority_reward": 0.513284358225202,
+          "source_diversity_reward": 0.8,
+          "temporal_relevance_reward": 0.5791666666666667,
+          "network_connectivity_reward": 0.16666666666666669
+        },
+        "provenance_traces": [
+          {
+            "reference_id": "semantic_scholar_dataset",
+            "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+            "quality_score": 0.64801710610432,
+            "reward_signals": {
+              "citation_reward": 0.5901702917777093,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.5333333333333333,
+              "source_credibility": 0.95,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.215,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+              "Initial confidence score: 0.89",
+              "Citation count: 892",
+              "Publication year: 2018-09-27",
+              "Authors: 3 author(s)",
+              "Reference type: DATASET",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: Association for Computational Linguistics (ACL)",
+              "Composite quality score: 0.648"
+            ]
+          },
+          {
+            "reference_id": "2308.14025",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "1706.03762",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "2203.02155",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "openpipe/art",
+            "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+            "quality_score": 0.49431462260553855,
+            "reward_signals": {
+              "citation_reward": 0.3266936911159173,
+              "completeness_reward": 0.55,
+              "recency_reward": 0.8,
+              "source_credibility": 0.7,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.115,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference openpipe/art ingested from GITHUB source",
+              "Initial confidence score: 0.88",
+              "Citation count: 42",
+              "Publication year: 2024-07-10",
+              "Authors: 3 author(s)",
+              "Reference type: CODE",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Composite quality score: 0.494"
+            ]
+          }
+        ]
+      },
+      {
+        "session_id": "session_20250828_113039",
+        "timestamp": "2025-08-28T11:30:39.837352",
+        "query": "What is the state of the art in natural language processing?",
+        "query_type": "comprehensive_survey",
+        "relevant_references": [
+          "semantic_scholar_dataset",
+          "2308.14025",
+          "1706.03762",
+          "2203.02155",
+          "openpipe/art"
+        ],
+        "research_response": "Research Analysis: What is the state of the art in natural language processing?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into What is the state of the art in natural language processing?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+        "quality_metrics": {
+          "overall_quality": 0.6673250607810723,
+          "base_quality": 0.7126072296872461,
+          "reference_diversity": 0.6,
+          "average_reference_quality": 0.6126072296872461,
+          "response_completeness": 0.785,
+          "num_references": 5
+        },
+        "rlhf_rewards": {
+          "reference_quality_reward": 0.5564897767069477,
+          "citation_authority_reward": 0.513284358225202,
+          "source_diversity_reward": 1.0,
+          "temporal_relevance_reward": 0.5791666666666667,
+          "network_connectivity_reward": 0.16666666666666669
+        },
+        "provenance_traces": [
+          {
+            "reference_id": "semantic_scholar_dataset",
+            "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+            "quality_score": 0.64801710610432,
+            "reward_signals": {
+              "citation_reward": 0.5901702917777093,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.5333333333333333,
+              "source_credibility": 0.95,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.215,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+              "Initial confidence score: 0.89",
+              "Citation count: 892",
+              "Publication year: 2018-09-27",
+              "Authors: 3 author(s)",
+              "Reference type: DATASET",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: Association for Computational Linguistics (ACL)",
+              "Composite quality score: 0.648"
+            ]
+          },
+          {
+            "reference_id": "2308.14025",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "1706.03762",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "2203.02155",
+            "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+            "quality_score": 0.6402348065754575,
+            "reward_signals": {
+              "citation_reward": 0.454831569852736,
+              "completeness_reward": 1.0,
+              "recency_reward": 0.8,
+              "source_credibility": 0.8,
+              "network_centrality": 0.15,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.18,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference 2308.14025 ingested from ARXIV source",
+              "Initial confidence score: 0.92",
+              "Citation count: 187",
+              "Publication year: 2023-08-25",
+              "Authors: 3 author(s)",
+              "Reference type: PAPER",
+              "Cites 3 references",
+              "Has 2 internal citations (cross-references)",
+              "Published in: arXiv preprint",
+              "Composite quality score: 0.640"
+            ]
+          },
+          {
+            "reference_id": "openpipe/art",
+            "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+            "quality_score": 0.49431462260553855,
+            "reward_signals": {
+              "citation_reward": 0.3266936911159173,
+              "completeness_reward": 0.55,
+              "recency_reward": 0.8,
+              "source_credibility": 0.7,
+              "network_centrality": 0.1,
+              "author_authority": 0.3010299956639812,
+              "content_richness": 0.115,
+              "cross_reference_reward": 0.4
+            },
+            "reasoning_steps": [
+              "Reference openpipe/art ingested from GITHUB source",
+              "Initial confidence score: 0.88",
+              "Citation count: 42",
+              "Publication year: 2024-07-10",
+              "Authors: 3 author(s)",
+              "Reference type: CODE",
+              "Cites 2 references",
+              "Has 2 internal citations (cross-references)",
+              "Composite quality score: 0.494"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reference_pipeline_stats": {
+    "references_processed": 8,
+    "citations_extracted": 9,
+    "provenance_traces_created": 8,
+    "duplicate_references_merged": 0,
+    "validation_errors": 0,
+    "citation_statistics": {
+      "total_citations": 9,
+      "citation_types": {
+        "direct": 9
+      },
+      "validation_status": {
+        "pending": 9
+      }
+    },
+    "provenance_statistics": {
+      "total_traces": 8,
+      "average_chain_length": 2.125,
+      "average_confidence": 0.8005882352941176,
+      "average_quality_score": 0.5564897767069477
+    },
+    "quality_distribution": {
+      "high_quality_count": 0,
+      "medium_quality_count": 4,
+      "low_quality_count": 4,
+      "average_quality": 0.5564897767069477,
+      "quality_std": 0.1075365143251192
+    }
+  },
+  "trace_quality_dashboard": {
+    "overview": {
+      "total_traces": 8,
+      "total_references": 8,
+      "total_citations": 9
+    },
+    "quality_distribution": {
+      "high_quality": 0,
+      "medium_quality": 4,
+      "low_quality": 4
+    },
+    "reward_signal_analysis": {
+      "citation_reward": {
+        "mean": 0.513284358225202,
+        "std": 0.24919044910965593,
+        "min": 0.1,
+        "max": 0.9901196985171911,
+        "median": 0.4645225711535416
+      },
+      "completeness_reward": {
+        "mean": 0.80625,
+        "std": 0.20832291640623696,
+        "min": 0.55,
+        "max": 1.0,
+        "median": 0.9
+      },
+      "recency_reward": {
+        "mean": 0.5791666666666667,
+        "std": 0.29389033290970595,
+        "min": 0.0,
+        "max": 0.8,
+        "median": 0.75
+      },
+      "source_credibility": {
+        "mean": 0.78125,
+        "std": 0.11709371246996998,
+        "min": 0.6,
+        "max": 0.95,
+        "median": 0.75
+      },
+      "network_centrality": {
+        "mean": 0.125,
+        "std": 0.024999999999999994,
+        "min": 0.1,
+        "max": 0.15,
+        "median": 0.125
+      },
+      "author_authority": {
+        "mean": 0.35529386059281837,
+        "std": 0.14235150289771364,
+        "min": 0.1505149978319906,
+        "max": 0.6611096473669597,
+        "median": 0.3010299956639812
+      },
+      "content_richness": {
+        "mean": 0.2,
+        "std": 0.07305819598101228,
+        "min": 0.115,
+        "max": 0.35,
+        "median": 0.175
+      },
+      "cross_reference_reward": {
+        "mean": 0.225,
+        "std": 0.15612494995995996,
+        "min": 0.0,
+        "max": 0.4,
+        "median": 0.2
+      }
+    },
+    "citation_network_metrics": {
+      "total_citations": 1579,
+      "average_citations": 197.375,
+      "citation_distribution": {
+        "highly_cited": 4,
+        "moderately_cited": 3,
+        "low_cited": 1
+      }
+    },
+    "temporal_analysis": {
+      "oldest_reference": 2017,
+      "newest_reference": 2024,
+      "average_age": 3.75,
+      "age_distribution": {
+        "recent": 5,
+        "moderate": 3,
+        "old": 0
+      }
+    },
+    "source_analysis": {
+      "ARXIV": 3,
+      "GITHUB": 3,
+      "SEMANTIC_SCHOLAR": 1,
+      "WIKIPEDIA": 1
+    },
+    "overall_quality": {
+      "average_quality": 0.5564897767069477,
+      "quality_std": 0.1075365143251192,
+      "quality_range": 0.2978732542844428,
+      "high_quality_percentage": 0.0
+    }
+  },
+  "full_research_history": [
+    {
+      "session_id": "session_20250828_113039",
+      "timestamp": "2025-08-28T11:30:39.704527",
+      "query": "How do transformer architectures work?",
+      "query_type": "foundational_concepts",
+      "relevant_references": [
+        "wikipedia_transformers"
+      ],
+      "research_response": "Research Analysis: How do transformer architectures work?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference wikipedia_transformers (Quality: 0.41)\n   This reference provides insights into the research question with a confidence level of 0.41.\n\nConclusion:\nThe analysis of 1 high-quality references provides comprehensive insights into How do transformer architectures work?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+      "quality_metrics": {
+        "overall_quality": 0.533507753272629,
+        "base_quality": 0.44143964753232723,
+        "reference_diversity": 1.0,
+        "average_reference_quality": 0.4081063141989939,
+        "response_completeness": 0.345,
+        "num_references": 1
+      },
+      "rlhf_rewards": {
+        "reference_quality_reward": 0.5564897767069477,
+        "citation_authority_reward": 0.6672696656927627,
+        "source_diversity_reward": 0.8,
+        "temporal_relevance_reward": 0.5791666666666667,
+        "network_connectivity_reward": 0.16666666666666669
+      },
+      "provenance_traces": [
+        {
+          "reference_id": "wikipedia_transformers",
+          "trace_id": "1b887890-7eae-4ce4-9b16-79a7e1aed3d9",
+          "quality_score": 0.4081063141989939,
+          "reward_signals": {
+            "citation_reward": 0.1,
+            "completeness_reward": 0.8,
+            "recency_reward": 0.8,
+            "source_credibility": 0.6,
+            "network_centrality": 0.1,
+            "author_authority": 0.1505149978319906,
+            "content_richness": 0.17,
+            "cross_reference_reward": 0.2
+          },
+          "reasoning_steps": [
+            "Reference wikipedia_transformers ingested from WIKIPEDIA source",
+            "Initial confidence score: 0.82",
+            "Citation count: 0",
+            "Publication year: 2023-12-15",
+            "Authors: 1 author(s)",
+            "Reference type: CONCEPT",
+            "Cites 2 references",
+            "Has 1 internal citations (cross-references)",
+            "Composite quality score: 0.408"
+          ]
+        }
+      ]
+    },
+    {
+      "session_id": "session_20250828_113039",
+      "timestamp": "2025-08-28T11:30:39.737116",
+      "query": "What are recent advances in reinforcement learning?",
+      "query_type": "recent_research",
+      "relevant_references": [
+        "semantic_scholar_dataset",
+        "2308.14025",
+        "1706.03762",
+        "2203.02155",
+        "openpipe/art"
+      ],
+      "research_response": "Research Analysis: What are recent advances in reinforcement learning?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into What are recent advances in reinforcement learning?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+      "quality_metrics": {
+        "overall_quality": 0.6633250607810723,
+        "base_quality": 0.7126072296872461,
+        "reference_diversity": 0.6,
+        "average_reference_quality": 0.6126072296872461,
+        "response_completeness": 0.745,
+        "num_references": 5
+      },
+      "rlhf_rewards": {
+        "reference_quality_reward": 0.5564897767069477,
+        "citation_authority_reward": 0.513284358225202,
+        "source_diversity_reward": 0.8,
+        "temporal_relevance_reward": 0.8687500000000001,
+        "network_connectivity_reward": 0.16666666666666669
+      },
+      "provenance_traces": [
+        {
+          "reference_id": "semantic_scholar_dataset",
+          "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+          "quality_score": 0.64801710610432,
+          "reward_signals": {
+            "citation_reward": 0.5901702917777093,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.5333333333333333,
+            "source_credibility": 0.95,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.215,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+            "Initial confidence score: 0.89",
+            "Citation count: 892",
+            "Publication year: 2018-09-27",
+            "Authors: 3 author(s)",
+            "Reference type: DATASET",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: Association for Computational Linguistics (ACL)",
+            "Composite quality score: 0.648"
+          ]
+        },
+        {
+          "reference_id": "2308.14025",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "1706.03762",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "2203.02155",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "openpipe/art",
+          "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+          "quality_score": 0.49431462260553855,
+          "reward_signals": {
+            "citation_reward": 0.3266936911159173,
+            "completeness_reward": 0.55,
+            "recency_reward": 0.8,
+            "source_credibility": 0.7,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.115,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference openpipe/art ingested from GITHUB source",
+            "Initial confidence score: 0.88",
+            "Citation count: 42",
+            "Publication year: 2024-07-10",
+            "Authors: 3 author(s)",
+            "Reference type: CODE",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Composite quality score: 0.494"
+          ]
+        }
+      ]
+    },
+    {
+      "session_id": "session_20250828_113039",
+      "timestamp": "2025-08-28T11:30:39.785263",
+      "query": "How can I implement a neural network from scratch?",
+      "query_type": "practical_implementation",
+      "relevant_references": [
+        "semantic_scholar_dataset",
+        "2308.14025",
+        "1706.03762",
+        "2203.02155",
+        "openpipe/art"
+      ],
+      "research_response": "Research Analysis: How can I implement a neural network from scratch?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into How can I implement a neural network from scratch?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+      "quality_metrics": {
+        "overall_quality": 0.6653250607810723,
+        "base_quality": 0.7126072296872461,
+        "reference_diversity": 0.6,
+        "average_reference_quality": 0.6126072296872461,
+        "response_completeness": 0.765,
+        "num_references": 5
+      },
+      "rlhf_rewards": {
+        "reference_quality_reward": 0.5564897767069477,
+        "citation_authority_reward": 0.513284358225202,
+        "source_diversity_reward": 0.8,
+        "temporal_relevance_reward": 0.5791666666666667,
+        "network_connectivity_reward": 0.16666666666666669
+      },
+      "provenance_traces": [
+        {
+          "reference_id": "semantic_scholar_dataset",
+          "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+          "quality_score": 0.64801710610432,
+          "reward_signals": {
+            "citation_reward": 0.5901702917777093,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.5333333333333333,
+            "source_credibility": 0.95,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.215,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+            "Initial confidence score: 0.89",
+            "Citation count: 892",
+            "Publication year: 2018-09-27",
+            "Authors: 3 author(s)",
+            "Reference type: DATASET",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: Association for Computational Linguistics (ACL)",
+            "Composite quality score: 0.648"
+          ]
+        },
+        {
+          "reference_id": "2308.14025",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "1706.03762",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "2203.02155",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "openpipe/art",
+          "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+          "quality_score": 0.49431462260553855,
+          "reward_signals": {
+            "citation_reward": 0.3266936911159173,
+            "completeness_reward": 0.55,
+            "recency_reward": 0.8,
+            "source_credibility": 0.7,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.115,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference openpipe/art ingested from GITHUB source",
+            "Initial confidence score: 0.88",
+            "Citation count: 42",
+            "Publication year: 2024-07-10",
+            "Authors: 3 author(s)",
+            "Reference type: CODE",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Composite quality score: 0.494"
+          ]
+        }
+      ]
+    },
+    {
+      "session_id": "session_20250828_113039",
+      "timestamp": "2025-08-28T11:30:39.837352",
+      "query": "What is the state of the art in natural language processing?",
+      "query_type": "comprehensive_survey",
+      "relevant_references": [
+        "semantic_scholar_dataset",
+        "2308.14025",
+        "1706.03762",
+        "2203.02155",
+        "openpipe/art"
+      ],
+      "research_response": "Research Analysis: What is the state of the art in natural language processing?\n\nBased on the analysis of relevant literature, here are the key findings:\n\n1. Reference semantic_scholar_dataset (Quality: 0.65)\n   This reference provides insights into the research question with a confidence level of 0.65.\n\n2. Reference 2308.14025 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n3. Reference 1706.03762 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n4. Reference 2203.02155 (Quality: 0.64)\n   This reference provides insights into the research question with a confidence level of 0.64.\n\n5. Reference openpipe/art (Quality: 0.49)\n   This reference provides insights into the research question with a confidence level of 0.49.\n\nConclusion:\nThe analysis of 5 high-quality references provides comprehensive insights into What is the state of the art in natural language processing?. The research demonstrates strong evidence-based findings with robust provenance tracking.\n\nResearch conducted on 2025-08-28 11:30:39",
+      "quality_metrics": {
+        "overall_quality": 0.6673250607810723,
+        "base_quality": 0.7126072296872461,
+        "reference_diversity": 0.6,
+        "average_reference_quality": 0.6126072296872461,
+        "response_completeness": 0.785,
+        "num_references": 5
+      },
+      "rlhf_rewards": {
+        "reference_quality_reward": 0.5564897767069477,
+        "citation_authority_reward": 0.513284358225202,
+        "source_diversity_reward": 1.0,
+        "temporal_relevance_reward": 0.5791666666666667,
+        "network_connectivity_reward": 0.16666666666666669
+      },
+      "provenance_traces": [
+        {
+          "reference_id": "semantic_scholar_dataset",
+          "trace_id": "bd9b0676-b4af-4236-8f66-9a3ab13c96da",
+          "quality_score": 0.64801710610432,
+          "reward_signals": {
+            "citation_reward": 0.5901702917777093,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.5333333333333333,
+            "source_credibility": 0.95,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.215,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference semantic_scholar_dataset ingested from SEMANTIC_SCHOLAR source",
+            "Initial confidence score: 0.89",
+            "Citation count: 892",
+            "Publication year: 2018-09-27",
+            "Authors: 3 author(s)",
+            "Reference type: DATASET",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: Association for Computational Linguistics (ACL)",
+            "Composite quality score: 0.648"
+          ]
+        },
+        {
+          "reference_id": "2308.14025",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "1706.03762",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "2203.02155",
+          "trace_id": "480ef7bb-061b-463f-8d95-b849b8d6f2b8",
+          "quality_score": 0.6402348065754575,
+          "reward_signals": {
+            "citation_reward": 0.454831569852736,
+            "completeness_reward": 1.0,
+            "recency_reward": 0.8,
+            "source_credibility": 0.8,
+            "network_centrality": 0.15,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.18,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference 2308.14025 ingested from ARXIV source",
+            "Initial confidence score: 0.92",
+            "Citation count: 187",
+            "Publication year: 2023-08-25",
+            "Authors: 3 author(s)",
+            "Reference type: PAPER",
+            "Cites 3 references",
+            "Has 2 internal citations (cross-references)",
+            "Published in: arXiv preprint",
+            "Composite quality score: 0.640"
+          ]
+        },
+        {
+          "reference_id": "openpipe/art",
+          "trace_id": "a57a7b59-e452-409a-8600-fa5136c73c39",
+          "quality_score": 0.49431462260553855,
+          "reward_signals": {
+            "citation_reward": 0.3266936911159173,
+            "completeness_reward": 0.55,
+            "recency_reward": 0.8,
+            "source_credibility": 0.7,
+            "network_centrality": 0.1,
+            "author_authority": 0.3010299956639812,
+            "content_richness": 0.115,
+            "cross_reference_reward": 0.4
+          },
+          "reasoning_steps": [
+            "Reference openpipe/art ingested from GITHUB source",
+            "Initial confidence score: 0.88",
+            "Citation count: 42",
+            "Publication year: 2024-07-10",
+            "Authors: 3 author(s)",
+            "Reference type: CODE",
+            "Cites 2 references",
+            "Has 2 internal citations (cross-references)",
+            "Composite quality score: 0.494"
+          ]
+        }
+      ]
+    }
+  ]
+}
